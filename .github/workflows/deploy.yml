@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./docker/Dockerfile.user
           push: true
           tags: krishnarana/mono-pay:latest # Replace with your Docker Hub username and repository
 
